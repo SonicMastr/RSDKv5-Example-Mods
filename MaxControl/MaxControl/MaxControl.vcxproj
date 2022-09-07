@@ -173,27 +173,13 @@
   <ItemGroup>
     <ClCompile Include="..\GameAPI\C\GameAPI\Game.c" />
     <ClCompile Include="dllmain.c" />
-    <ClCompile Include="Objects\Announcer.c" />
-    <ClCompile Include="Objects\BSS_HUD.c" />
-    <ClCompile Include="Objects\BSS_Setup.c" />
-    <ClCompile Include="Objects\COverlay.c" />
-    <ClCompile Include="Objects\HUD.c" />
-    <ClCompile Include="Objects\LottoMachine.c" />
-    <ClCompile Include="Objects\Player.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\GameAPI\C\GameAPI\Game.h" />
     <ClInclude Include="..\GameAPI\C\GameAPI\GameLink.h" />
     <ClInclude Include="..\GameAPI\C\GameAPI\GameObjects.h" />
     <ClInclude Include="..\GameAPI\C\GameAPI\GameVariables.h" />
-    <ClInclude Include="Objects\Announcer.h" />
-    <ClInclude Include="Objects\BSS_HUD.h" />
-    <ClInclude Include="Objects\BSS_Setup.h" />
-    <ClInclude Include="Objects\COverlay.h" />
-    <ClInclude Include="Objects\HUD.h" />
-    <ClInclude Include="Objects\LottoMachine.h" />
-    <ClInclude Include="Objects\Player.h" />
-    <ClInclude Include="Objects\Zone.h" />
+    <ClInclude Include="ModConfig.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
